@@ -1,0 +1,227 @@
+
+.bg-purple { background-color: black; }
+
+.banner {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)),
+  url(pecel\ lele.webp);
+  background-size: cover;
+  background-position: center;
+  padding-top: 80px;
+}
+
+.hovered-card:hover {
+  transform: translateX(-20px) scale(1.08);
+  transition: all 0.5s ease;
+  background-color: rgb(83, 82, 82);
+}
+
+.img {
+  width: 10px;
+  height: auto;
+}
+
+.icon-service{
+  width: 90px;
+  height: 90px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.main-color{ background-color:#8f8c8c; }
+body{ background-color:#818181; }
+
+.footer{ background-color:#4e4e4e; }
+
+.footer .social-icon{
+  font-size:1.6rem;
+  color:#fff;
+  transition:.3s;
+}
+
+.footer .social-icon:hover{ color:#38351b; }
+
+.testimony{ background-color:#9708aad8 !important; }
+
+.testimony-card{
+  background: rgba(126, 124, 124, 0.07) !important;
+  border:1px solid rgba(255,255,255,0.15) !important;
+  border-radius:16px;
+  padding:28px;
+  transition:.3s;
+  height:100%;
+}
+
+.testimony-card:hover{
+  transform: translateY(-6px);
+  background: rgba(228, 226, 226, 0.13);
+  border-color: rgba(180, 178, 178, 0.3);
+}
+
+.testimony-card .author{
+  font-size:0.8rem;
+  color: rgba(255,255,255,0.55);
+}
+
+.testimony-card p{
+  font-size:0.88rem;
+  color: rgba(255,255,255,0.8);
+}
+
+.testimony-card .stars{
+  color:#ffe600;
+}
+
+/* Perbaikan footer */
+.footer-section {
+  background-color: #4e4e4e;
+  color: #ffffff;
+}
+
+.footer-section a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #38351b;
+}
+
+.footer-section .social-icon {
+  font-size: 1.6rem;
+  color: #fff;
+  transition: .3s;
+}
+
+.footer-section .social-icon:hover {
+  color: #38351b;
+}
+
+.footer-bottom {
+  background-color: #212529;
+  color: #ffffff;
+}
+
+.footer-bottom a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom .text-muted {
+  color: #adb5bd !important;
+}
+
+/* Memastikan teks terlihat */
+.text-light {
+  color: #ffffff !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+/* Footer Styles */
+.footer-bottom {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 40px 0 20px;
+}
+
+.footer-bottom h5,
+.footer-bottom h6 {
+  color: #ffffff !important;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer-bottom h5 {
+  font-size: 1.25rem;
+}
+
+.footer-bottom h6 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.footer-bottom p {
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-bottom .text-muted {
+  color: #adb5bd !important;
+}
+
+.footer-bottom ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-bottom ul li {
+  margin-bottom: 10px;
+}
+
+.footer-bottom ul li a {
+  color: #adb5bd !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.footer-bottom ul li a:hover {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.footer-bottom .bi {
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+.footer-bottom .bi-geo-alt-fill,
+.footer-bottom .bi-telephone-alt-fill,
+.footer-bottom .bi-envelope-fill {
+  color: #ffffff !important;
+  margin-right: 8px;
+}
+
+.footer-bottom ul li span {
+  color: #adb5bd !important;
+  font-size: 0.9rem;
+}
+
+.footer-bottom hr {
+  border-color: #333 !important;
+  margin: 30px 0 20px;
+  opacity: 0.5;
+}
+
+.footer-bottom .text-center {
+  color: #adb5bd !important;
+  font-size: 0.85rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer-bottom {
+    text-align: center;
+  }
+  
+  .footer-bottom .col-md-4 {
+    margin-bottom: 30px;
+  }
+  
+  .footer-bottom .col-md-4:last-child {
+    margin-bottom: 0;
+  }
+  
+  .footer-bottom ul li {
+    text-align: center;
+  }
+}
